@@ -20,6 +20,8 @@ import profilePic7 from "../../img/arab.png";
 import profilePic8 from "../../img/tsdn.png";
 import profilePic9 from "../../img/sv.png";
 import profilePic10 from "../../img/ruji.png";
+import profilePic11 from "../../img/mb.png";
+import profilePic12 from "../../img/ss.png";
 
 const Testimonial = () => {
   const clients = [
@@ -72,6 +74,16 @@ const Testimonial = () => {
       img: profilePic10,
       review:
         "Rujie Participants",
+    },
+    {
+      img: profilePic11,
+      review:
+        "Mayoral Cup Marching Band Participant",
+    },
+    {
+      img: profilePic12,
+      review:
+        "School Digitization Committee",
     },
   ];
 
