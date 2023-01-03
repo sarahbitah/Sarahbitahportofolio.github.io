@@ -22,7 +22,7 @@ import profilePic9 from "../../img/sv.png";
 import profilePic10 from "../../img/ruji.png";
 import profilePic11 from "../../img/mb.png";
 import profilePic12 from "../../img/ss.png";
-
+import profilePic13 from "../../img/kihajar.png";
 const Sertifikat = () => {
   const clients = [
     {
@@ -84,6 +84,11 @@ const Sertifikat = () => {
       img: profilePic12,
       review:
         "School Digitization Committee",
+    },
+    {
+      img: profilePic13,
+      review:
+        "Passed the DKI Jakarta Province Level",
     },
   ];
 
