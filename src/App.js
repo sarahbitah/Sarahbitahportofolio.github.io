@@ -8,6 +8,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Testimonial from "./components/Testimonials/Testimonial";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import ScrollToUp from "./components/ScrollToUp/ScrollToUp";
 import { useContext } from "react";
 import { themeContext } from "./Context";
 function App() {
@@ -30,6 +31,7 @@ function App() {
       <Testimonial />
       <Contact />
       <Footer />
+      <ScrollToUp />
     </div>
   );
 }
