@@ -3,7 +3,7 @@ import "./Testimonial.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
-import { Pagination } from "swiper";
+import { Navigation } from "swiper";
 import "swiper/css/pagination";
 // Import Swiper styles
 import 'swiper/css';
@@ -98,8 +98,9 @@ const Testimonial = () => {
       </div>
       <Swiper
         // install Swiper modules
-        modules={[Pagination,]}
+        modules={[Navigation]}
         spaceBetween={30}
+        navigation={true}
         slidesPerView={1}
         loop={true}
         centerSlide={true}
