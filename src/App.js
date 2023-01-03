@@ -5,7 +5,7 @@ import "./App.css";
 import Experience from "./components/Experience/Experience";
 import Works from "./components/Works/Works";
 import Portfolio from "./components/Portfolio/Portfolio";
-import Testimonial from "./components/Testimonials/Testimonial";
+import Sertifikat from "./components/Sertifikat/Sertifikat";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import ScrollToUp from "./components/ScrollToUp/ScrollToUp";
@@ -28,7 +28,7 @@ function App() {
       <Experience />
       <Works />
       <Portfolio />
-      <Testimonial />
+      <Sertifikat />
       <Contact />
       <Footer />
       <ScrollToUp />

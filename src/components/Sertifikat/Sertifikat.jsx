@@ -1,5 +1,5 @@
 import React from "react";
-import "./Testimonial.css";
+import "./Sertifikat.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
@@ -23,7 +23,7 @@ import profilePic10 from "../../img/ruji.png";
 import profilePic11 from "../../img/mb.png";
 import profilePic12 from "../../img/ss.png";
 
-const Testimonial = () => {
+const Sertifikat = () => {
   const clients = [
     {
       img: profilePic1,
@@ -123,4 +123,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default Sertifikat;
