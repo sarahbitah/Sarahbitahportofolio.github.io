@@ -38,3 +38,6 @@
   border-radius: 19px;
 }
 
+.swiper-button-next, .swiper-button-prev {
+  color: black !important;
+}
