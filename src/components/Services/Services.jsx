@@ -6,7 +6,7 @@ import Glasses from "../../img/wd.png";
 import Humble from "../../img/bd.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './cv.pdf';
+import Resume from './cvnew.pdf';
 
 const Services = () => {
   // context
